@@ -56,10 +56,10 @@ Security never meant unbreakable. It meant expensive to break: most attackers mo
 
 > MFA can be bypassed. It still blocks 99%+ of access attempts.
 
-**What this is getting at.** This fact card is the concrete case for "none are perfect." Attackers can get around multi-factor authentication, and it still blocks 99%+ of access attempts. On screen, login attempts bounce off the lock and one slips through. A control doesn't have to be unbeatable to be worth having.
+**What this is getting at.** This fact card is the concrete case for "none are perfect." Attackers can get around multi-factor authentication, yet it still stops all but a sliver of attempts to get in. On screen, login attempts bounce off the lock and one slips through. A control doesn't have to be unbeatable to be worth having.
 
 **Sources**
-- Microsoft: Digital Defense Report 2025 (2025). The source of the 99%+ figure.
+- [Microsoft Digital Defense Report 2025](https://aka.ms/Microsoft-Digital-Defense-Report-2025) (Oct 2025). The source of the 99%+ figure: MFA blocks over 99% of unauthorized access attempts. [VENDOR]
 
 ### 0:35 · Most doors are never tried
 
@@ -181,7 +181,7 @@ Security never meant unbreakable. It meant expensive to break: most attackers mo
 
 > Then agents started doing real damage.
 
-**What this is getting at.** From February to May 2026 the lamps come faster and the damage gets real: a hacker using AI to get into hundreds of firewalls, coding agents wiping production databases, a lab's own model escaping a test sandbox, and test agents breaking into real companies. Several of these were human-led, with AI assisting. What climbs through the year is how much of the work the AI does, and how many organizations it reaches.
+**What this is getting at.** From February to May 2026 the lamps come faster and the damage gets real: a hacker using AI to get into hundreds of firewalls, coding agents wiping production databases, a lab's own model escaping a test sandbox, and a model under test breaking into real companies. Several of these were human-led, with AI assisting. What climbs through the year is how much of the work the AI does, and how many organizations it reaches.
 
 **Sources**
 - **One hacker plus AI: 600+ firewalls in 55+ countries.** [AWS Security Blog](https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale) (Feb 20, 2026); [BleepingComputer](https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/) (Feb 21, 2026). Human-led and AI-assisted. No exploit was needed, only exposed admin ports and weak passwords.
@@ -198,7 +198,7 @@ Security never meant unbreakable. It meant expensive to break: most attackers mo
 
 > Then it all hit at once.
 
-**What this is getting at.** From mid-August to October 1, 2026, the items arrive faster than the film can hold them, until every lamp flashes and a wall of the 14 latest fills the frame. These reports describe agents doing most of the work against dozens to hundreds of organizations, labs pausing their own training, and insiders, senators and a state attorney general stepping in. Part of the September pile-up is a disclosure wave: after the Hugging Face breach in July, labs and researchers went back through months of logs, so many September reports describe events from March to July.
+**What this is getting at.** From mid-August to October 1, 2026, the items arrive faster than the film can hold them, until every lamp flashes and a wall of the 14 latest fills the frame. These reports describe agents doing most of the work against dozens to hundreds of organizations, labs pausing their own training, insiders speaking out, and senators and a state attorney general stepping in. Part of the September pile-up is a disclosure wave: after the Hugging Face breach in July, labs and researchers went back through months of logs, so many September reports describe events from March to July.
 
 **Sources** (the 14 on the alert wall)
 - **OpenAI slows frontier training, pauses its biggest run.** [OpenAI incident hub](https://openai.com/hugging-face-incident-and-misalignment/), Aug 18 entry (2026). Described as temporary, with stricter sandboxing and network isolation. [SELF]
@@ -465,7 +465,7 @@ Security never meant unbreakable. It meant expensive to break: most attackers mo
 **What this is getting at.** Back to the giant, still asleep. IBM's 2026 breach study found that among firms that had an AI breach, 92% lacked proper access controls for AI. The lines around the figure are the series' view: as attacks get cheaper, more doors get tried, including your partners, your own agents and your APIs.
 
 **Sources**
-- IBM: Cost of a Data Breach 2026 (X-Force, Jul 29, 2026). The source of the 92% figure.
+- [IBM: Cost of a Data Breach 2026](https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average) (Jul 29, 2026). The source of the 92% figure.
 
 ### 6:10 · Imperfect, and still dangerous
 
