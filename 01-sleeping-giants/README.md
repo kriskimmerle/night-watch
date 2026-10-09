@@ -1,8 +1,8 @@
 # NIGHT WATCH · Episode 01 · Sleeping Giants
 
-[![NIGHT WATCH · Sleeping Giants](thumbnail.jpg)](https://kriskimmerle.substack.com)
+[![NIGHT WATCH · Sleeping Giants](thumbnail.jpg)](https://kriskimmerle.substack.com/p/night-watch-episode-1-sleeping-giants)
 
-**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com) · 6:40 · October 2026
+**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com/p/night-watch-episode-1-sleeping-giants) or [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7513035313389256704/) · 6:40 · October 2026
 
 Security never meant unbreakable. It meant expensive to break: most attackers move on when getting in costs more than it's worth. Sleeping Giants argues that AI is collapsing that cost. Models, closed and open, can now find new flaws and chain them into working attacks in hours. The parts companies build their own agents from are under attack, and AI still fails in ways nobody expects. The past year of incidents shows this is already happening. The defenses still work, and the same models can be turned on your own systems first. Most companies haven't woken up to that yet.
 
