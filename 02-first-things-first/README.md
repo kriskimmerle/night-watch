@@ -1,8 +1,8 @@
 # NIGHT WATCH · Episode 02 · First Things First
 
-[![NIGHT WATCH · First Things First](thumbnail.jpg)](https://kriskimmerle.substack.com)
+[![NIGHT WATCH · First Things First](thumbnail.jpg)](https://kriskimmerle.substack.com/p/night-watch-episode-2-first-things)
 
-**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com) · 4:05 · October 2026
+**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com/p/night-watch-episode-2-first-things) · 4:05 · October 2026
 
 Attackers are using AI to work faster, but the AI attacks in the news keep getting in through old gaps: reused passwords, unpatched known flaws, over-permissioned tokens and long-lived keys. Meanwhile, companies are building AI on top of foundations that still have those gaps. This episode follows that problem through four real attacks. It then pictures your company's infrastructure as a space station, shows what happens when AI agents come aboard, and walks through the fix in order. The argument is that the foundations still work, and AI makes them matter more than ever: get them right first, then build AI on top.
 

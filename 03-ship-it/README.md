@@ -1,8 +1,8 @@
 # NIGHT WATCH · Episode 03 · Ship It
 
-[![NIGHT WATCH · Ship It](thumbnail.jpg)](https://kriskimmerle.substack.com)
+[![NIGHT WATCH · Ship It](thumbnail.jpg)](https://kriskimmerle.substack.com/p/night-watch-episode-3-ship-it)
 
-**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com) · 4:24 · October 2026
+**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com/p/night-watch-episode-3-ship-it) or [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7516491821020155905/) · 4:24 · October 2026
 
 Developers now say AI writes about half of their code. It makes the same security mistakes people always have, only faster and at far greater volume, and checking every change by hand can't keep up. This episode tells one real case in depth, a METR researcher's vibe-coded app whose API key was taken and used to burn through free AI credits worth about \$600,000, then shows it isn't the only one. The argument is that the answer isn't to slow AI down. It's to build the checks into how software gets made, with stronger checks where the stakes are higher. None of it is easy, but it's doable.
 
