@@ -1,3 +1,5 @@
+<img src="assets/night-watch-header.png" alt="Night Watch. From AI Risk Praxis." width="100%">
+
 # NIGHT WATCH
 
 Short motion films on AI and security, from [AI Risk Praxis](https://kriskimmerle.substack.com).
