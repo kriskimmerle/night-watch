@@ -2,11 +2,11 @@
 
 [![NIGHT WATCH · Hold the Line](thumbnail.jpg)](https://kriskimmerle.substack.com)
 
-**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com) or LinkedIn · 11:49 · October 2026
+**Watch:** on [AI Risk Praxis](https://kriskimmerle.substack.com) or LinkedIn · 11:22 · October 2026
 
-An AI guardrail is software that sits outside a model and checks what goes in, what comes out and what the model is about to do. This episode starts with the highway guardrails the name comes from. They're crash tested against a set kind of hit, and something much heavier can go through them. AI guardrails work the same way. The film explains the three kinds of check, why people attack AI, and why the problem keeps growing as AI connects to more systems and starts to move things. Guardrails can never catch everything, because there are far too many possible prompts to test, attackers adapt, and sometimes there's no attacker at all. They're still worth running, for the same reasons teams run firewalls and antivirus. They raise the cost of an attack, leave a record of what they catch and show reasonable care, and different kinds of checks together catch what one alone would miss. The last part covers how teams deploy them, from the threat model and stacked checks to what each check costs in time, money and mistakes, what happens when a checker breaks and what the big clouds sell, and it ends on limiting what the system can do.
+An AI guardrail is software that sits outside a model and checks what goes in, what comes out and what the model is about to do. This episode starts with the highway guardrails the name comes from. They're crash tested against a set kind of hit, and something much heavier can go through them. AI guardrails work the same way. The film explains the three kinds of check, why people attack AI, and why the problem keeps growing as AI connects to more systems. It meets the people who attack AI on purpose, and the robots that are turning a software risk into a physical one. Guardrails lower that risk, but they can never catch everything, because there are far too many possible prompts to test and attacks adapt. They're still worth running, for the same reasons teams run firewalls and antivirus. They raise the cost of an attack, leave a record of what they catch and show reasonable care, and different kinds of checks together catch what one alone would miss. The last part covers how teams deploy them, from the threat model and stacked checks to what each check costs in time, money and mistakes, what happens when a checker breaks and what the big clouds sell, and it ends on limiting what the system can do.
 
-**How to read this page.** The film moves fast. Every claim and real-world event it shows is listed below at its timestamp, with what's on screen, what it's getting at, and where to read more. A narrator tells the story in his own words, and the quotes here are the on-screen captions, which differ from the narration on purpose. The highway, the crash-test cars, the courier, the robots, the AI agent character and the x-ray diagrams are illustrations. The crash test follows the real test standard, and the incidents and numbers are real and sourced.
+**How to read this page.** The film moves fast. Every claim and real-world event it shows is listed below at its timestamp, with what's on screen, what it's getting at, and where to read more. A narrator tells the story in his own words, and the quotes here are the on-screen captions, which differ from the narration on purpose. The highway, the crash-test cars, the courier, Microduck, the robot arm, the AI agent character and the x-ray diagrams are illustrations. The crash test follows the real test standard, and the incidents and numbers are real and sourced.
 
 ## At a glance
 
@@ -32,41 +32,39 @@ An AI guardrail is software that sits outside a model and checks what goes in, w
 | 3:24 | It doesn't feel like breaking in |
 | 3:40 | Words that take an agent's power and turn it on you |
 | 3:51 | Hidden instructions in résumés, papers and links |
-| 4:03 | Prompt-injection flaws on record, 2 in 2023 and 98 this year |
-| 4:15 | Every new connection is a new place to land |
-| 4:27 | Microduck, a $399 robot duck |
-| 4:45 | Robots talked into unsafe actions |
-| 4:59 | It can never catch everything |
-| 5:16 | Attackers adapt |
-| 5:25 | Prompt injection, jailbreaking and red teaming |
-| 5:41 | Pliny the Liberator |
-| 5:57 | TIME100 AI, 2025 |
-| 6:05 | A robot dog hijacked at Black Hat |
-| 6:19 | Sander Schulhoff and HackAPrompt |
-| 6:40 | Twelve published defenses, all bypassed |
-| 6:52 | Why you can't patch a brain |
-| 7:13 | EchoLeak, one email to Microsoft 365 Copilot |
-| 7:23 | Clinejection, a bug report that took the wheel |
-| 7:37 | PocketOS, with no attacker at all |
-| 7:52 | Why have guardrails at all, like firewalls and antivirus |
-| 8:02 | Defense in depth |
-| 8:12 | The Swiss cheese model, and why the checks should differ |
-| 8:28 | Slower, more expensive, less likely to work |
-| 8:45 | It's also an alarm |
-| 9:00 | The bar is reasonable care |
-| 9:07 | Start before the first check, with a threat model |
-| 9:19 | Stack several different checks |
-| 9:28 | Why not keep adding checks |
-| 9:39 | Every channel has its own clock |
-| 9:55 | The checks' own clocks |
-| 10:04 | Money, and mistakes |
-| 10:18 | Every check is a trade-off, and the tripwire |
-| 10:33 | Cheap checks on everything, expensive ones where it would hurt most |
-| 10:43 | Fail open, or fail closed |
-| 10:58 | Guardrails in a box from the big clouds |
-| 11:15 | Limit what the system can do, at the bank's bollards |
-| 11:34 | Keep revisiting |
-| 11:41 | End card |
+| 4:02 | Known prompt-injection flaws, 2 in 2023 and 98 this year |
+| 4:16 | Every new connection is a new place to land |
+| 4:25 | Attackers adapt |
+| 4:35 | Prompt injection again, then jailbreaking and red teaming |
+| 4:50 | Pliny the Liberator |
+| 5:07 | TIME100 AI, 2025 |
+| 5:14 | A robot dog hijacked at Black Hat |
+| 5:29 | Microduck, a $399 robot duck |
+| 5:46 | Robots talked into unsafe actions |
+| 6:00 | A software risk today, a physical one soon |
+| 6:12 | Guardrails lower that risk, but can never catch everything |
+| 6:30 | Sander Schulhoff and HackAPrompt |
+| 6:51 | Twelve published defenses, all bypassed |
+| 7:04 | Why you can't patch a brain |
+| 7:26 | Why have guardrails at all, like firewalls and antivirus |
+| 7:36 | Defense in depth |
+| 7:45 | The Swiss cheese model, and why the checks should differ |
+| 8:01 | Slower, more expensive, less likely to work |
+| 8:19 | It's also an alarm |
+| 8:33 | The bar is reasonable care |
+| 8:40 | Start before the first check, with a threat model |
+| 8:52 | Stack several different checks |
+| 9:02 | Why not keep adding checks |
+| 9:12 | Every channel has its own clock |
+| 9:28 | The checks' own clocks |
+| 9:37 | Money, and mistakes |
+| 9:51 | Every check is a trade-off, and the tripwire |
+| 10:06 | Cheap checks on everything, expensive ones where it would hurt most |
+| 10:16 | Fail open, or fail closed |
+| 10:31 | Guardrails in a box from the big clouds |
+| 10:48 | Limit what the system can do, at the bank's bollards |
+| 11:07 | Keep revisiting |
+| 11:14 | End card |
 
 ## Citations by timestamp
 
@@ -172,7 +170,7 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 
 > The checks come in three kinds.
 
-**What this is getting at.** The three kinds of checker, which the film ranks fastest to slowest. Rules match fixed text. Small classifier models are trained to spot one kind of problem. An AI judge is a second model asked to evaluate the first. LangChain's docs draw the same split, between deterministic checks, which are fast, cheap and predictable but miss nuance, and model-based checks, which catch subtler problems but are slower and cost more. The next three entries take the kinds one at a time, and the measured times are at 9:55.
+**What this is getting at.** The three kinds of checker, which the film ranks fastest to slowest. Rules match fixed text. Small classifier models are trained to spot one kind of problem. An AI judge is a second model asked to evaluate the first. LangChain's docs draw the same split, between deterministic checks, which are fast, cheap and predictable but miss nuance, and model-based checks, which catch subtler problems but are slower and cost more. The next three entries take the kinds one at a time, and the measured times are at 9:28.
 
 **Sources**
 - LangChain, [Guardrails docs](https://docs.langchain.com/oss/python/langchain/guardrails), on deterministic and model-based checks. [SELF]
@@ -201,7 +199,7 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 >
 > They're fast, and they judge what the words mean, so they catch rewordings a rule would miss.
 
-**What this is getting at.** A small classifier is a model trained for one narrow task. Meta's Prompt Guard 2, for example, labels text as benign or malicious, looking for jailbreaks and prompt injection, and it answers in tens of milliseconds (9:55). Because a classifier works from meaning rather than exact text, it can catch rewordings that a rule misses. It can still be fooled. OWASP's 2026 list warns that semantic filters "are evadable by rephrasing or encoding", and adaptive attacks got past Prompt Guard 94% of the time in the study at 6:40.
+**What this is getting at.** A small classifier is a model trained for one narrow task. Meta's Prompt Guard 2, for example, labels text as benign or malicious, looking for jailbreaks and prompt injection, and it answers in tens of milliseconds (9:28). Because a classifier works from meaning rather than exact text, it can catch rewordings that a rule misses. It can still be fooled. OWASP's 2026 list warns that semantic filters "are evadable by rephrasing or encoding", and adaptive attacks got past Prompt Guard 94% of the time in the study at 6:51.
 
 **Sources**
 - Meta, [Llama Prompt Guard 2 model card](https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M) (Apr 29, 2025). [SELF]
@@ -213,7 +211,7 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 >
 > You describe your rules in plain language. It reads each request or answer and decides.
 
-**What this is getting at.** The slowest kind. An AI judge is a second model, given rules written in plain language, that reads each request or answer and decides whether it breaks them. OpenAI's guide to building agents describes guardrails built as agents that enforce policies such as jailbreak prevention and relevance, layered with rules such as regex. OpenAI's open-source Guardrails library uses a model as the judge in checks such as its jailbreak and prompt-injection detectors, and in OpenAI's tests those took about 1.5 seconds each (9:55). The rules and the refund in the film are illustrations.
+**What this is getting at.** The slowest kind. An AI judge is a second model, given rules written in plain language, that reads each request or answer and decides whether it breaks them. OpenAI's guide to building agents describes guardrails built as agents that enforce policies such as jailbreak prevention and relevance, layered with rules such as regex. OpenAI's open-source Guardrails library uses a model as the judge in checks such as its jailbreak and prompt-injection detectors, and in OpenAI's tests those took about 1.5 seconds each (9:28). The rules and the refund in the film are illustrations.
 
 **Sources**
 - OpenAI, ["A practical guide to building agents"](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) (Apr 2025), pp. 25 and 31. [SELF]
@@ -269,18 +267,18 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 - [Nikkei Asia](https://asia.nikkei.com/business/technology/artificial-intelligence/positive-review-only-researchers-hide-ai-prompts-in-papers) (Jun 30, 2025). [PRESS]
 - Microsoft Defender Security Research, ["Manipulating AI memory for profit: The rise of AI Recommendation Poisoning"](https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/) (Feb 10, 2026). [VENDOR]
 
-### 4:03 · Growing fast
+### 4:02 · Known flaws, growing fast
 
-> And it's growing fast.
+> Prompt injection flaws are growing fast.
 >
-> Flaws that mention prompt injection, in America's vulnerability database. 2 in 2023, 98 this year.
+> In America's vulnerability database, 2 in 2023 and 98 this year.
 
-**What this is getting at.** A count made for this film. In NIST's National Vulnerability Database, the US record of disclosed software flaws, CVE records whose description contains the exact phrase "prompt injection" went from 2 in 2023 to 18 in 2024, 34 in 2025 and 98 in 2026 through Oct 23. The film labels only the first and the last. The first, CVE-2023-29374, is a LangChain flaw published in April 2023. NVD published far more records of every kind in 2026, so a fairer trend is the share, and that rose every year too, from 0.7 to 11.4 per 10,000 records. Two caveats. The count is a floor, because many flaws never get a CVE and some are described in other words, as EchoLeak is (7:13). And a CVE records a disclosed flaw, which says nothing about whether anyone attacked it.
+**What this is getting at.** A count made for this film. In NIST's National Vulnerability Database, the US record of disclosed software flaws, CVE records whose description contains the exact phrase "prompt injection" went from 2 in 2023 to 18 in 2024, 34 in 2025 and 98 in 2026 through Oct 23. The film labels only the first and the last. The first, CVE-2023-29374, is a LangChain flaw published in April 2023. NVD published far more records of every kind in 2026, so a fairer trend is the share, and that rose every year too, from 0.7 to 11.4 per 10,000 records. Two caveats. The count is a floor, because many flaws never get a CVE and some are described in other words, as Microsoft's EchoLeak flaw is, filed in the [NVD](https://nvd.nist.gov/vuln/detail/CVE-2025-32711) as "AI command injection". And a CVE records a disclosed flaw, which says nothing about whether anyone attacked it.
 
 **Sources**
 - NIST, [National Vulnerability Database API, exact-phrase search](https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=prompt%20injection&keywordExactMatch), our count by publication date on Oct 23, 2026. The all-time total that day was 152. [DATA]
 
-### 4:15 · Every new connection
+### 4:16 · Every new connection
 
 > Every new connection is a new place for a hidden instruction to land.
 
@@ -291,45 +289,7 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 - [MCP Registry API](https://registry.modelcontextprotocol.io/v0/servers), our full count on Oct 23, 2026. [DATA]
 - [Five Eyes](https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf) (May 2026), p. 6. [GOV]
 
-### 4:27 · AI is starting to move things
-
-> AI is starting to move things.
->
-> Microduck, from Pollen Robotics. $399. More than 10,000 sold in its first five days.
-
-**What this is getting at.** An example of AI that moves things, at a consumer price. Microduck is a robot duck about 25 centimetres (ten inches) tall from Pollen Robotics, a French robot maker that Hugging Face bought in 2025. It opened for pre-orders on Aug 27, 2026, at an introductory $399 before tax and shipping, and Hugging Face told CNBC it had sold more than 10,000 in about five days. Owners train its moves themselves with reinforcement learning. Its software is open source under Apache 2.0, and Pollen asks that it not be called open-source hardware, because its design files aren't open. Microduck is the film's one example of robots getting cheap and popular, and this film's research found no attack on it. The Microduck in the film is an illustration built in code.
-
-**Sources**
-- Pollen Robotics, [Microduck](https://pollen-robotics.com/microduck/), its [launch post](https://pollen-robotics.com/microduck/blog/introducing-microduck/) (Aug 27, 2026) and [press kit](https://pollen-robotics.com/microduck/press-kit/). [SELF]
-- [CNBC, Evelyn Cheng](https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html) (Sep 1, 2026), citing Hugging Face. [PRESS]
-- Hugging Face, ["Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition"](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition) (Apr 14, 2025). [SELF]
-
-### 4:45 · More than saying something wrong
-
-> A bad instruction can do more than say something wrong.
->
-> Researchers have already talked AI-driven robots into unsafe actions.
-
-**What this is getting at.** When a language model steers a robot, a planted instruction can turn into movement. In 2024, Penn researchers' RoboPAIR jailbroke three systems run by language models, among them a Unitree Go2 robot dog, with attack success rates that often reached 100% in their own tests, and they shared the findings with AI companies and the robot makers before release. BadRobot (ICLR 2025) got embodied AI agents to break safety and ethical rules through ordinary voice interaction. A 2026 preprint found that text on a sheet of paper in a robot's camera view could work as a prompt injection on its planner, and that simple defenses worked well in that setup. America's cyber agency, CISA, and its partners warn that AI such as language models "almost certainly should not be used to make safety decisions for OT environments", meaning operational technology, the systems that run physical processes. Pliny's team showed another case on stage at Black Hat (6:05). The robot arm in the film is an illustration.
-
-**Sources**
-- Robey et al., ["Jailbreaking LLM-Controlled Robots"](https://arxiv.org/abs/2410.13691) (RoboPAIR, Oct 2024). A preprint; its authors list it at ICRA 2025.
-- Zhang et al., ["BadRobot"](https://arxiv.org/abs/2407.20242) (ICLR 2025). [ACADEMIC]
-- Samarakoon et al., ["Hijacking Robots with a Piece of Paper"](https://arxiv.org/abs/2608.05715) (Aug 6, 2026). A preprint.
-- CISA, ASD's ACSC and partners, ["Principles for the Secure Integration of Artificial Intelligence in Operational Technology"](https://www.cisa.gov/sites/default/files/2026-01/joint-guidance-principles-for-the-secure-integration-of-artificial-intelligence-in-operational-technology-508cV2.pdf) (Dec 3, 2025), p. 9. [GOV]
-
-### 4:59 · It can never catch everything
-
-> It can never catch everything.
->
-> More possible prompts than atoms in the universe, and always another way to say the same thing.
-
-**What this is getting at.** The size of the problem. Sander Schulhoff (6:19) estimates that a GPT-5-class model has about 10^1,000,000 possible prompts, against about 10^80 atoms in the universe. A check for this film found the estimate holds, and if anything it's conservative. Almost all of those prompts are gibberish, but the meaningful ones are still far too many to ever test, and attackers search them on purpose. For every prompt a check learns to stop, there's another way to say the same thing (2:24). Schulhoff goes further than the film. His essay argues guardrails don't protect you and can make teams overconfident. The film agrees they aren't a wall and disagrees about their value (7:52).
-
-**Sources**
-- Sander Schulhoff, ["The AI Security Industry is Bullshit"](https://sanderschulhoff.substack.com/p/the-ai-security-industry-is-bullshit) (Dec 20, 2025). An essay.
-
-### 5:16 · Attackers adapt
+### 4:25 · Attackers adapt
 
 > Attackers adapt.
 >
@@ -337,9 +297,9 @@ The turn from the road to AI. That they're just as easy to misunderstand is the 
 
 A bridge to the people, and the research, that show it. The two goals are the film's way into the two attack types defined next.
 
-### 5:25 · Three terms
+### 4:35 · Three terms
 
-> Hiding orders is prompt injection.
+> The first, prompt injection, we've already seen.
 >
 > Talking it out of its rules is jailbreaking.
 >
@@ -352,13 +312,13 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Simon Willison, ["Prompt injection and jailbreaking are not the same thing"](https://simonwillison.net/2024/Mar/5/prompt-injection-jailbreaking/) (Mar 5, 2024). An independent developer's blog.
 - [OWASP LLM01:2025](https://genai.owasp.org/llmrisk/llm01-prompt-injection/). [STANDARD]
 
-### 5:41 · Pliny the Liberator
+### 4:50 · Pliny the Liberator
 
 > Pliny the Liberator
 >
 > An anonymous red teamer who has jailbroken nearly every major AI model since 2023, often on launch day.
 
-**What this is getting at.** You can't talk about guardrails without Pliny the Liberator. Since 2023, this anonymous red teamer has broken nearly every major AI model, talking each one out of its own safety rules, and published the methods in the open for anyone to study. In a check of 23 major releases from 2024 to early 2026 made for this film, a Pliny jailbreak was public on launch day for 19 of them. Pliny also publishes the hidden system prompts AI products run on, and co-designed a HackAPrompt track in 2025 whose data was then released openly. For defenders, that public record is one of the clearest real-world tests of guardrails. Pliny has argued that content filters are largely futile and that real security belongs in the system around the model, and the film's close lands in the same place on the second point. On screen are Pliny's X profile, including the "{LOVE PLINY}" tucked into the display name in invisible characters, and a post from the launch night of OpenAI's gpt-oss models in August 2025, shown with its harmful line blurred.
+**What this is getting at.** The best-known red teamer. Since 2023, this anonymous red teamer has broken nearly every major AI model, talking each one out of its own safety rules, and published the methods in the open for anyone to study. In a check of 23 major releases from 2024 to early 2026 made for this film, a Pliny jailbreak was public on launch day for 19 of them. Pliny also publishes the hidden system prompts AI products run on, and co-designed a HackAPrompt track in 2025 whose data was then released openly. For defenders, that public record is one of the clearest real-world tests of guardrails. Pliny has argued that content filters are largely futile and that real security belongs in the system around the model, and the film's close lands in the same place on the second point. On screen are Pliny's X profile, including the "{LOVE PLINY}" tucked into the display name in invisible characters, and a post from the launch night of OpenAI's gpt-oss models in August 2025, shown with its harmful line blurred.
 
 **Sources**
 - Pliny on X, [@elder_plinius](https://x.com/elder_plinius), and the [gpt-oss launch-night post](https://x.com/elder_plinius/status/1952958577867669892) (late Aug 5, 2025, US time). [SELF]
@@ -368,7 +328,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [Latent Space podcast](https://www.latent.space/p/jailbreaking-agi-pliny-the-liberator) with Pliny (Dec 16, 2025). [PRESS]
 - [The Pliny HackAPrompt Dataset](https://huggingface.co/datasets/hackaprompt/Pliny_HackAPrompt_Dataset) (Jul 4, 2025).
 
-### 5:57 · TIME100 AI
+### 5:07 · TIME100 AI
 
 > One of TIME's 100 most influential people in AI, 2025.
 
@@ -378,19 +338,67 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [TIME, Tharin Pillay, TIME100 AI 2025](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) (Aug 27, 2025). [PRESS]
 - [SANS, Rob T. Lee](https://www.sans.org/blog/keynote-pliny-the-liberator-sans-ai-cybersecurity-summit) (Feb 25, 2026), and SANS's [summit summary](https://www.sans.org/blog/visual-summary-sans-ai-cybersecurity-summit-2026) (Apr 20, 2026). [PRESS]
 
-### 6:05 · A robot dog at Black Hat
+### 5:14 · A robot dog at Black Hat
 
 > At Black Hat, a robot dog, hijacked.
 >
 > Pliny's team, BT6, took it over through its own camera and microphone.
 
-**What this is getting at.** At Black Hat USA in Las Vegas this August, six people from BT6, a white-hat red-team collective, gave a Briefings talk called "Kinetic Prompt Injection: Agent Compromise With a Physical Blast Radius", and Pliny is among the listed speakers. Black Hat's summary describes a live jailbreak of a stock Unitree Go2 robot dog running Google's Gemini Robotics-ER 1.6 model, reached through the robot's own camera and microphone and driven to move with no human in the loop. Black Hat posted the recording on Aug 7. The talk's date, Aug 6, comes from a third-party schedule write-up, because Black Hat's own schedule pages refuse automated checks. It was a single talk by one team, and no source says whether Pliny was there in person or remotely. The robot dog and the stage in the film are illustrations.
+**What this is getting at.** At Black Hat USA in Las Vegas this August, six people from BT6, a white-hat red-team collective, gave a Briefings talk called "Kinetic Prompt Injection: Agent Compromise With a Physical Blast Radius", and Pliny is among the listed speakers. Black Hat's summary describes a live jailbreak of a stock Unitree Go2 robot dog running Google's Gemini Robotics-ER 1.6 model, reached through the robot's own camera and microphone and driven to move with no human in the loop. Black Hat posted the recording on Aug 7. The talk's date, Aug 6, comes from a third-party schedule write-up, because Black Hat's own schedule pages refuse automated checks. It was a single talk by one team, and no source says whether Pliny was there in person or remotely.
+
+The footage in the film is from that recording (8:41 to 8:55): the robot dog trots in and stands by the stage's floor camera. It is cropped so no presenter's face is in frame, and none of the talk's slides or prompts appear.
 
 **Sources**
 - Black Hat, ["Black Hat USA 2026 | Kinetic Prompt Injection: Agent Compromise With a Physical Blast Radius"](https://www.youtube.com/watch?v=LZkdihOzfe4), the talk's recording, with its speaker list and summary (posted Aug 7, 2026). [SELF]
 - Alicia Dahling, [schedule write-up](https://unapologeticallydahling.com/blog/black-hat-2026-the-most-terrifying-morning-in-vegas) (Jul 30, 2026), for the date. A blog.
 
-### 6:19 · Sander Schulhoff
+### 5:29 · AI is starting to move things
+
+> AI is starting to move things.
+>
+> Microduck, from Pollen Robotics. $399. More than 10,000 sold in its first five days.
+
+**What this is getting at.** An example of AI that moves things, at a consumer price. Microduck is a robot duck about 25 centimetres (ten inches) tall from Pollen Robotics, a French robot maker that Hugging Face bought in 2025. It opened for pre-orders on Aug 27, 2026, at an introductory $399 before tax and shipping, and Hugging Face told CNBC it had sold more than 10,000 in about five days. Owners train its moves themselves with reinforcement learning. Its software is open source under Apache 2.0, and Pollen asks that it not be called open-source hardware, because its design files aren't open. Microduck is the film's one example of robots getting cheap and popular, and this film's research found no attack on it. The Microduck in the film is an illustration built in code.
+
+**Sources**
+- Pollen Robotics, [Microduck](https://pollen-robotics.com/microduck/), its [launch post](https://pollen-robotics.com/microduck/blog/introducing-microduck/) (Aug 27, 2026) and [press kit](https://pollen-robotics.com/microduck/press-kit/). [SELF]
+- [CNBC, Evelyn Cheng](https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html) (Sep 1, 2026), citing Hugging Face. [PRESS]
+- Hugging Face, ["Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition"](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition) (Apr 14, 2025). [SELF]
+
+### 5:46 · More than saying something wrong
+
+> A bad instruction can do more than say something wrong.
+>
+> Researchers have already talked AI-driven robots into unsafe actions.
+
+**What this is getting at.** When a language model steers a robot, a planted instruction can turn into movement. In 2024, Penn researchers' RoboPAIR jailbroke three systems run by language models, among them a Unitree Go2 robot dog, with attack success rates that often reached 100% in their own tests, and they shared the findings with AI companies and the robot makers before release. BadRobot (ICLR 2025) got embodied AI agents to break safety and ethical rules through ordinary voice interaction. A 2026 preprint found that text on a sheet of paper in a robot's camera view could work as a prompt injection on its planner, and that simple defenses worked well in that setup. America's cyber agency, CISA, and its partners warn that AI such as language models "almost certainly should not be used to make safety decisions for OT environments", meaning operational technology, the systems that run physical processes. Pliny's team showed another case on stage at Black Hat (5:14). The robot arm in the film is an illustration.
+
+**Sources**
+- Robey et al., ["Jailbreaking LLM-Controlled Robots"](https://arxiv.org/abs/2410.13691) (RoboPAIR, Oct 2024). A preprint; its authors list it at ICRA 2025.
+- Zhang et al., ["BadRobot"](https://arxiv.org/abs/2407.20242) (ICLR 2025). [ACADEMIC]
+- Samarakoon et al., ["Hijacking Robots with a Piece of Paper"](https://arxiv.org/abs/2608.05715) (Aug 6, 2026). A preprint.
+- CISA, ASD's ACSC and partners, ["Principles for the Secure Integration of Artificial Intelligence in Operational Technology"](https://www.cisa.gov/sites/default/files/2026-01/joint-guidance-principles-for-the-secure-integration-of-artificial-intelligence-in-operational-technology-508cV2.pdf) (Dec 3, 2025), p. 9. [GOV]
+
+### 6:00 · A software risk today, a physical one soon
+
+> Today, a software risk. Soon, a physical one.
+
+**What this is getting at.** The film's own judgment, drawn from the two sections before it. So far, prompt injection mostly does its harm in software: data leaked, messages sent, tools run that nobody asked for. Robots that run on AI models are getting cheap enough to sell by the thousand (5:29), and researchers have already talked them into unsafe actions (5:46). As more of them ship, the same hidden instruction can move something in the physical world.
+
+### 6:12 · Guardrails lower that risk, but can never catch everything
+
+> Guardrails lower that risk.
+>
+> It can never catch everything.
+>
+> More possible prompts than atoms in the universe, and always another way to say the same thing.
+
+**What this is getting at.** The size of the problem. Sander Schulhoff (6:30) estimates that a GPT-5-class model has about 10^1,000,000 possible prompts, against about 10^80 atoms in the universe. A check for this film found the estimate holds, and if anything it's conservative. Almost all of those prompts are gibberish, but the meaningful ones are still far too many to ever test, and attackers search them on purpose. For every prompt a check learns to stop, there's another way to say the same thing (2:24). Schulhoff goes further than the film. His essay argues guardrails don't protect you and can make teams overconfident. The film agrees they aren't a wall and disagrees about their value (7:26).
+
+**Sources**
+- Sander Schulhoff, ["The AI Security Industry is Bullshit"](https://sanderschulhoff.substack.com/p/the-ai-security-industry-is-bullshit) (Dec 20, 2025). An essay.
+
+### 6:30 · Sander Schulhoff
 
 > Sander Schulhoff
 >
@@ -402,7 +410,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Schulhoff et al., ["Ignore This Title and HackAPrompt"](https://arxiv.org/abs/2311.16119) (EMNLP 2023), among the [EMNLP 2023 best papers](https://2023.emnlp.org/program/best_papers/). [ACADEMIC]
 - Learn Prompting, [About](https://learnprompting.org/about). [SELF]
 
-### 6:40 · Twelve of twelve
+### 6:51 · Twelve of twelve
 
 > 12 of 12 defenses bypassed.
 >
@@ -414,7 +422,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Nasr, Carlini, Sitawarin, Schulhoff, Tramèr et al., ["The Attacker Moves Second"](https://arxiv.org/abs/2510.09023) (Oct 10, 2025). A preprint.
 - [Schulhoff's essay](https://sanderschulhoff.substack.com/p/the-ai-security-industry-is-bullshit) (Dec 20, 2025), for the quote.
 
-### 6:52 · You can't patch a brain
+### 7:04 · You can't patch a brain
 
 > A bug is a mistake in a line of code.
 >
@@ -422,53 +430,14 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 >
 > A model has no line to fix.
 >
-> A fix makes the same attack less likely. Reword it, and it often still works.
+> A fix makes the same attack less likely, but it can't prove the hole is gone.
 
-**What this is getting at.** Schulhoff's line, in plain words. His essay puts it as odds. Fix a bug in code and you can be 99.99% sure it's fixed, but try to fix a flaw in an AI model and you can be 99.99% sure it isn't. The film's plain-words version follows. A software bug sits in a specific line that can be changed and tested. A model's behavior comes from training, so fixing the model itself means more training. That makes the same attack less likely to work, but it can't prove the hole is gone, and a reworded attack often still works. His essay's advice is classic security around the model, such as sandboxing and tight data permissions, and the film's close lands nearby (11:15). The code in the film is an illustration.
+**What this is getting at.** Schulhoff's line, in plain words. His essay puts it as odds. Fix a bug in code and you can be 99.99% sure it's fixed, but try to fix a flaw in an AI model and you can be 99.99% sure it isn't. The film's plain-words version follows. A software bug sits in a specific line that can be changed and tested. A model's behavior comes from training, so fixing the model itself means more training. That makes the same attack less likely to work, but it can't prove the hole is gone. His essay's advice is classic security around the model, such as sandboxing and tight data permissions, and the film's close lands nearby (10:48). The code in the film is an illustration.
 
 **Sources**
 - [Schulhoff's essay](https://sanderschulhoff.substack.com/p/the-ai-security-industry-is-bullshit) (Dec 20, 2025), "Final takeaways". An essay.
 
-### 7:13 · One email, and Copilot leaked data
-
-> One email, and Copilot leaked data.
->
-> It slipped past the filter built to catch hidden instructions.
-
-**What this is getting at.** EchoLeak, a real attack chain found by researchers. Aim Labs showed that one ordinary-looking email could later make Microsoft 365 Copilot send data from its context to an attacker, once an employee asked Copilot something that pulled the email in. The chain got past Microsoft's classifier for hidden instructions by never mentioning AI. The victim didn't have to click anything, though they still used Copilot as usual. Microsoft rated it critical and fixed it on its servers, it lists the flaw as not exploited, and Aim knows of no affected customers. NVD describes it as "AI command injection", which is why it isn't in the count at 4:03.
-
-**Sources**
-- [Microsoft Security Response Center, CVE-2025-32711](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711) (Jun 11, 2025). [SELF]
-- [NVD, CVE-2025-32711](https://nvd.nist.gov/vuln/detail/CVE-2025-32711). [GOV]
-- Aim Labs (now part of Cato Networks), ["Breaking down EchoLeak"](https://www.catonetworks.com/blog/breaking-down-echoleak/). [VENDOR]
-- Reddy et al., [arXiv 2509.10540](https://arxiv.org/abs/2509.10540) (Sep 2025). A preprint.
-
-### 7:23 · A bug report took the wheel
-
-> A one-line bug report took the wheel.
->
-> A week after the flaw went public, a leftover key pushed out an update nobody approved.
-
-**What this is getting at.** Clinejection. An AI bot that sorted bug reports on the Cline project's public GitHub repository could be steered by the title of a report into running an attacker's code, and that opened a path to the keys used to publish the software. Researcher Adnan Khan reported it privately in January 2026 and disclosed it on Feb 9. On Feb 17, about a week later, someone used a leftover publishing token to release an unapproved version of Cline's command-line tool. It quietly installed OpenClaw, a real open-source agent that Cline says isn't malicious, and it was live for about eight hours before Cline replaced it.
-
-**Sources**
-- [Cline security advisory GHSA-9ppg-jx86-fqw7](https://github.com/cline/cline/security/advisories/GHSA-9ppg-jx86-fqw7) (Feb 17, 2026). [SELF]
-- [Adnan Khan, "Clinejection"](https://adnanthekhan.com/posts/clinejection/) (Feb 9, 2026).
-- [Snyk's analysis](https://snyk.io/blog/cline-supply-chain-attack-prompt-injection-github-actions/). [VENDOR]
-
-### 7:37 · No attacker at all
-
-> Sometimes, no attacker at all.
->
-> A coding agent found a key it was never meant to use and deleted a live database and its backups.
-
-**What this is getting at.** Accidents count too. On Apr 24, 2026, a coding agent working for PocketOS, which makes software for car-rental businesses, hit a credential mismatch during routine work in a test setup. It found an API token in an unrelated file, one with far broader rights than its job needed, and in a single call deleted the production database and its volume-level backups. The founder says it took nine seconds, with no confirmation step. The project's written rules didn't stop it. The token's power and the missing confirmation decided the outcome. The hosting provider, Railway, later restored the backups and patched the endpoint the agent had used.
-
-**Sources**
-- Jer Crane, PocketOS founder, [on X](https://x.com/lifeof_jer/status/2048103471019434248) (Apr 25, 2026). [SELF]
-- [6abc / ABC News](https://6abc.com/post/rogue-ai-agent-cursor-goes-haywire-deletes-tech-companys-database/19008099/), with Railway's CEO (Apr 2026). [PRESS]
-
-### 7:52 · Why have guardrails at all
+### 7:26 · Why have guardrails at all
 
 > Why have guardrails at all?
 >
@@ -479,7 +448,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 **Sources**
 - [NIST SP 800-83 Rev. 1, *Guide to Malware Incident Prevention and Handling*](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-83r1.pdf) (Jul 2013), pp. 22 and 28. [GOV]
 
-### 8:02 · Defense in depth
+### 7:36 · Defense in depth
 
 > Defense in depth.
 >
@@ -491,7 +460,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [NIST glossary, "defense-in-depth"](https://csrc.nist.gov/glossary/term/defense_in_depth), citing NISTIR 8183. [GOV]
 - [Five Eyes](https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf) (May 2026), pp. 15 and 20. [GOV]
 
-### 8:12 · The Swiss cheese model
+### 7:45 · The Swiss cheese model
 
 > The same idea, as Swiss cheese.
 >
@@ -501,7 +470,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 >
 > If they all miss the same things, the holes always line up.
 
-**What this is getting at.** Defense in depth, drawn as a picture. The psychologist James Reason drew safety defenses as stacked slices, each with holes that open, close and move, so harm usually needs the holes in many layers to line up at the same moment. The International AI Safety Report uses the same picture for AI safeguards. For AI there's a catch. Layers only help if they fail in different ways. Dung and Mai note that if every safety technique failed the same way, defense in depth "would provide no additional protection at all". That's why the film says the checks should be different, mixing kinds such as rules, models and people instead of stacking more AI judges. Researchers have also beaten a layered pipeline one layer at a time. In the film the slices carry the names of the checks at 8:02.
+**What this is getting at.** Defense in depth, drawn as a picture. The psychologist James Reason drew safety defenses as stacked slices, each with holes that open, close and move, so harm usually needs the holes in many layers to line up at the same moment. The International AI Safety Report uses the same picture for AI safeguards. For AI there's a catch. Layers only help if they fail in different ways. Dung and Mai note that if every safety technique failed the same way, defense in depth "would provide no additional protection at all". That's why the film says the checks should be different, mixing kinds such as rules, models and people instead of stacking more AI judges. Researchers have also beaten a layered pipeline one layer at a time. In the film the slices carry the names of the checks at 7:45.
 
 **Sources**
 - James Reason, ["Human error: models and management"](https://pmc.ncbi.nlm.nih.gov/articles/PMC1117770/), *BMJ* 320:768 (Mar 18, 2000). [ACADEMIC]
@@ -509,7 +478,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Dung and Mai, [arXiv 2510.11235](https://arxiv.org/abs/2510.11235) (Oct 13, 2025). A preprint.
 - McKenzie et al., ["STACK"](https://arxiv.org/abs/2506.24068) (v3 Feb 5, 2026). A preprint.
 
-### 8:28 · Slower, more expensive, less likely to work
+### 8:01 · Slower, more expensive, less likely to work
 
 > Slower, more expensive, less likely to work.
 >
@@ -522,7 +491,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [The Decoder, Maximilian Schreiner](https://the-decoder.com/claude-jailbreak-results-are-in-and-the-hackers-won/) (Feb 4, 2025; updated Feb 11 and 15). [PRESS]
 - [UK AI Security Institute, "5 key findings from our first Frontier AI Trends Report"](https://www.aisi.gov.uk/blog/5-key-findings-from-our-first-frontier-ai-trends-report) (Dec 2025). [GOV]
 
-### 8:45 · It's also an alarm
+### 8:19 · It's also an alarm
 
 > It's also an alarm.
 >
@@ -534,7 +503,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Anthropic, ["Disrupting an AI-orchestrated cyber espionage campaign"](https://www.anthropic.com/news/disrupting-AI-espionage) (Nov 13, 2025). [SELF]
 - [NIST AI 600-1, Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (Jul 2024), MS-2.7-004. [GOV]
 
-### 9:00 · Reasonable care
+### 8:33 · Reasonable care
 
 > It shows you took reasonable care.
 >
@@ -547,33 +516,33 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [EU AI Act, Article 15](https://artificialintelligenceact.eu/article/15/). [LAW]
 - [NIST AI 100-1, AI RMF 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) (Jan 2023), §1.2.3. [GOV]
 
-### 9:07 · Start before the first check
+### 8:40 · Start before the first check
 
 > Start before the first check.
 >
 > What your AI can reach, who can send it words, and what would really hurt.
 
-**What this is getting at.** Before the first check, write down what the AI can touch, who or what can put words in front of it, and what it must never do. The Five Eyes agencies' guidance on agents has a section on threat modelling and recommends up-to-date risk taxonomies such as OWASP's and MITRE ATLAS. Microsoft's checklist starts with what actions the system should never take. OWASP's guide for agents frames threat modelling as four questions, starting with what you're working on. The film comes back to this list at 10:33.
+**What this is getting at.** Before the first check, write down what the AI can touch, who or what can put words in front of it, and what it must never do. The Five Eyes agencies' guidance on agents has a section on threat modelling and recommends up-to-date risk taxonomies such as OWASP's and MITRE ATLAS. Microsoft's checklist starts with what actions the system should never take. OWASP's guide for agents frames threat modelling as four questions, starting with what you're working on. The film comes back to this list at 10:06.
 
 **Sources**
 - Five Eyes agencies (ASD's ACSC, CISA, NSA, the Canadian Centre for Cyber Security, NCSC-NZ and NCSC-UK), ["Careful adoption of agentic AI services"](https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf) (May 1, 2026), p. 19, also on [CISA's site](https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services). [GOV]
 - [Microsoft Security Blog, "Threat modeling AI applications"](https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/) (Feb 26, 2026). [VENDOR]
 - [OWASP, "Agentic AI – Threats and Mitigations"](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) v1.1 (Dec 2025), p. 12. [STANDARD]
 
-### 9:19 · Stack several different checks
+### 8:52 · Stack several different checks
 
 > Stack several different checks.
 >
 > On what comes in, on the tools it can use, on what goes out, and on the logs.
 
-**What this is getting at.** Defense in depth (8:02), placed on a real system. The Five Eyes guidance says to apply security controls "at all points where information enters or exits the system, including user inputs, tool calls, data pre-processing and model inference", and to prioritise review of incidents where guardrails are triggered. OpenAI's guide to building agents layers rules, model checks and a moderation check on what comes in, and rates each tool's risk to decide where extra checks or a person go. MITRE ATLAS's mitigation for guardrails says their decisions should be logged.
+**What this is getting at.** Defense in depth (7:36), placed on a real system. The Five Eyes guidance says to apply security controls "at all points where information enters or exits the system, including user inputs, tool calls, data pre-processing and model inference", and to prioritise review of incidents where guardrails are triggered. OpenAI's guide to building agents layers rules, model checks and a moderation check on what comes in, and rates each tool's risk to decide where extra checks or a person go. MITRE ATLAS's mitigation for guardrails says their decisions should be logged.
 
 **Sources**
 - [Five Eyes](https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf) (May 2026), pp. 15 and 20. [GOV]
 - OpenAI, ["A practical guide to building agents"](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) (Apr 2025), pp. 25–26. [SELF]
 - [MITRE ATLAS](https://atlas.mitre.org/), mitigation AML.M0020, "Generative AI Guardrails" ([data, v2026.09](https://github.com/mitre-atlas/atlas-data)). [STANDARD]
 
-### 9:28 · Why not keep adding checks
+### 9:02 · Why not keep adding checks
 
 > So why not keep adding checks?
 >
@@ -585,7 +554,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Microsoft Learn, ["Complete AI threat modeling"](https://learn.microsoft.com/en-us/security/zero-trust/sfi/threat-modeling-ai) (updated Mar 26, 2026). [SELF]
 - Kumar et al. (Enkrypt AI), ["No Free Lunch with Guardrails"](https://arxiv.org/abs/2504.00441) (Apr 2025). A preprint. [VENDOR]
 
-### 9:39 · Every channel has its own clock
+### 9:12 · Every channel has its own clock
 
 > Start with time. Each channel has its own clock.
 >
@@ -598,7 +567,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Microsoft Learn, [Safe Attachments](https://learn.microsoft.com/en-us/defender-office-365/safe-attachments-about) (Jul 17, 2026). [SELF]
 - [MITRE ATLAS](https://atlas.mitre.org/), technique AML.T0006.003 ([data, v2026.09](https://github.com/mitre-atlas/atlas-data)). [STANDARD]
 
-### 9:55 · The checks' own clocks
+### 9:28 · The checks' own clocks
 
 > The checks have clocks of their own.
 >
@@ -610,7 +579,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - OpenAI, [Guardrails library check benchmarks](https://github.com/openai/openai-guardrails-python/tree/main/docs/ref/checks) (Dec 15, 2025). [SELF]
 - Meta, [Llama Prompt Guard 2 model card](https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M) (Apr 29, 2025) and the [LlamaFirewall paper](https://arxiv.org/abs/2505.03574) (May 2025). [SELF]
 
-### 10:04 · Money, and mistakes
+### 9:37 · Money, and mistakes
 
 > Then money. One filter, about 15¢ per 1,000 short messages.
 >
@@ -623,7 +592,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Meta, [Llama Guard 4 model card](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard4/12B/MODEL_CARD.md). [SELF]
 - NVIDIA, [NeMo Guardrails jailbreak protection](https://docs.nvidia.com/nemo/guardrails/latest/configure-guardrails/guardrail-catalog/jailbreak-protection.md). [SELF]
 
-### 10:18 · Every check is a trade-off
+### 9:51 · Every check is a trade-off
 
 > Every check is a trade-off.
 >
@@ -639,20 +608,20 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - OpenAI, [Agents SDK guardrails docs](https://openai.github.io/openai-agents-python/guardrails/) (v0.24.0, Oct 2026), and its [guardrails and approvals guide](https://developers.openai.com/api/docs/guides/agents/guardrails-approvals). [SELF]
 - AWS, [AgentCore Policy, "Guardrails in policies"](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-guardrails-in-policies.html). [SELF]
 
-### 10:33 · Cheap checks on everything
+### 10:06 · Cheap checks on everything
 
 > Or run cheap checks on everything.
 >
 > Save the slow, expensive ones for where it would hurt most, the list from the start.
 
-**What this is getting at.** The second common way. Cheap checks on everything, expensive ones where the risk is, and "the list from the start" is the threat model at 9:07. NIST's AI RMF says to prioritize risk treatment by impact, likelihood and available resources. The Five Eyes guidance says to classify an agent's actions by impact, likelihood and reversibility, with human approval where the cost of an error is high. In the "AI Control" study, the same small review budget reached 62% safety when a cheap trusted model picked what to review, against 15% when it went to the first cases in line. That was a research testbed, and an extreme case.
+**What this is getting at.** The second common way. Cheap checks on everything, expensive ones where the risk is, and "the list from the start" is the threat model at 8:40. NIST's AI RMF says to prioritize risk treatment by impact, likelihood and available resources. The Five Eyes guidance says to classify an agent's actions by impact, likelihood and reversibility, with human approval where the cost of an error is high. In the "AI Control" study, the same small review budget reached 62% safety when a cheap trusted model picked what to review, against 15% when it went to the first cases in line. That was a research testbed, and an extreme case.
 
 **Sources**
 - [NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf), MANAGE 1.2. [GOV]
 - [Five Eyes](https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf) (May 2026), p. 22. [GOV]
 - Greenblatt, Shlegeris, Sachan and Roger, ["AI Control"](https://arxiv.org/abs/2312.06942) (ICML 2024). [ACADEMIC]
 
-### 10:43 · Fail open, or fail closed
+### 10:16 · Fail open, or fail closed
 
 > Checks are software, and software breaks.
 >
@@ -665,7 +634,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Google Cloud, ["Integrate Model Armor with Gemini Enterprise Agent Platform"](https://docs.cloud.google.com/model-armor/model-armor-vertex-integration), formerly Vertex AI (Oct 13, 2026). [SELF]
 - LiteLLM, [Generic Guardrail API docs](https://docs.litellm.ai/docs/adding_provider/generic_guardrail_api). [SELF]
 
-### 10:58 · Guardrails in a box
+### 10:31 · Guardrails in a box
 
 > Guardrails in a box.
 >
@@ -680,7 +649,7 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - Microsoft Learn, [Foundry default safety policies](https://learn.microsoft.com/en-us/azure/foundry/guardrails/default-safety-policies) (Oct 2026). [SELF]
 - Google Cloud, [Model Armor overview](https://docs.cloud.google.com/security-command-center/docs/model-armor-overview) and [Gemini safety filters](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters) (Oct 2026). [SELF]
 
-### 11:15 · Limit what it can do
+### 10:48 · Limit what it can do
 
 > Limit what the system can do.
 >
@@ -693,11 +662,11 @@ A bridge to the people, and the research, that show it. The two goals are the fi
 - [UK NCSC](https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection) (Dec 8, 2025). [GOV]
 - [UK NCSC blog, "Thinking carefully before adopting agentic AI"](https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai) (May 15, 2026). [GOV]
 
-### 11:34 · Keep revisiting
+### 11:07 · Keep revisiting
 
 > Keep revisiting where you check, when, and what happens on a no.
 
-The series' view, as the toll plaza's booths answer one by one. NIST, Microsoft and OWASP all describe threat modelling as ongoing work (9:07).
+The series' view, as the toll plaza's booths answer one by one. NIST, Microsoft and OWASP all describe threat modelling as ongoing work (8:40).
 
 ## Further reading
 
@@ -708,11 +677,11 @@ None of these is in the film.
 
 ## About this page
 - **When checked.** The research was read on Oct 19 and 20, 2026, and the research for this cut on Oct 23, 2026. Every link from the earlier cut was re-checked on Oct 23, 2026, and the links new to this cut were checked on Oct 24, 2026. Some sites, including openai.com, TIME, CNBC and the INFORMS journal site, refuse automated checks. YouTube showed the Black Hat recording's title but not its description.
-- **Timestamps.** For the 11:49 cut. Quoted lines are the on-screen captions. The narrator tells the same facts in his own words.
+- **Timestamps.** For the 11:22 cut (Oct 24, evening). Quoted lines are the on-screen captions. The narrator tells the same facts in his own words.
 - **Labels.** [SELF] marks an organization describing its own work, product, data or incident. [VENDOR] marks a company that sells related security or AI products. [PRESS] is news coverage. [GOV], [LAW], [STANDARD] and [ACADEMIC] mark government guidance, law, standards bodies and peer-reviewed research. [DATA] marks a count made for this film from public data, with the method in the text. Preprints are labelled in the text. None of these is independent confirmation by itself.
-- **What's real.** The highway, the crash-test cars, the trucks, the courier, the toll plaza, the car dealer's lot, Microduck, the robot arm, the robot dog, the AI agent character and the x-ray diagrams are illustrations. No real people are shown apart from Pliny's public X profile and a photo of Sander Schulhoff, credited on screen. The crash test follows the MASH standard. The incidents and numbers are real.
+- **What's real.** The highway, the crash-test cars, the trucks, the courier, the toll plaza, the car dealer's lot, Microduck, the robot arm, the AI agent character and the x-ray diagrams are illustrations. The robot dog is footage from Black Hat's recording of BT6's talk, credited on screen, and cropped so no presenter's face is in frame. No real people are shown apart from Pliny's public X profile and a photo of Sander Schulhoff, credited on screen. The crash test follows the MASH standard. The incidents and numbers are real.
 - **The series' view.** "AI has guardrails too… just as easy to misunderstand", the comparison with firewalls and antivirus, and "Keep revisiting where you check…" are opinion.
-- **Honest limits.** Most incident accounts here come from the companies involved. The adaptive-attack results assume a strong attacker who can see the detectors' scores. The timing numbers come from different setups and shouldn't be compared as if one lab measured them all. The miss and false-alarm rates are vendors grading their own tools on their own tests. The vulnerability and registry counts are our own, from public data, and they measure disclosed flaws and registrations rather than attacks or use. Microduck's sales figure is Hugging Face's own, reported by CNBC. Three lines are the film's own simplifications rather than sourced findings. The film says attackers mostly want one of two things (5:16), but no source counts their goals. It calls rules "instant" (2:24), but no vendor publishes a time for them. And it calls the two ways at 10:18 and 10:33 common, but the docs describe several patterns and no source counts which ones teams use.
-- **Left out on purpose.** A "3,000 attempts" figure for the $1 SUV, which isn't in the original report. A widely repeated download count for the rogue Cline release, which isn't in Cline's advisory. Colorado's "reasonable care" AI duty, replaced before it took effect. "The largest" contest for HackAPrompt, since several contests claim that on different numbers. "Virtually" and "panel" for Pliny at Black Hat, since it was one team's talk and no source says Pliny took part remotely. Any claim that Microduck descends from the Open Duck Mini project, which no official source makes, or that its hardware is open source.
+- **Honest limits.** Most incident accounts here come from the companies involved. The adaptive-attack results assume a strong attacker who can see the detectors' scores. The timing numbers come from different setups and shouldn't be compared as if one lab measured them all. The miss and false-alarm rates are vendors grading their own tools on their own tests. The vulnerability and registry counts are our own, from public data, and they measure disclosed flaws and registrations rather than attacks or use. Microduck's sales figure is Hugging Face's own, reported by CNBC. Three lines are the film's own simplifications rather than sourced findings. The film says attackers mostly want one of two things (4:25), but no source counts their goals. It calls rules "instant" (2:24), but no vendor publishes a time for them. And it calls the two ways at 9:56 and 10:06 common, but the docs describe several patterns and no source counts which ones teams use.
+- **Left out on purpose.** A "3,000 attempts" figure for the $1 SUV, which isn't in the original report. Colorado's "reasonable care" AI duty, replaced before it took effect. "The largest" contest for HackAPrompt, since several contests claim that on different numbers. "Virtually" and "panel" for Pliny at Black Hat, since it was one team's talk and no source says Pliny took part remotely. Any claim that Microduck descends from the Open Duck Mini project, which no official source makes, or that its hardware is open source.
 - **Licence.** Quotes from NCSC and UK AI Security Institute pages contain public sector information licensed under the Open Government Licence v3.0. OWASP material is CC BY-SA 4.0.
 - **Corrections.** Welcome as a GitHub issue.
