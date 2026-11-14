@@ -15,6 +15,7 @@ The films move fast. This repo is the slow version: each episode has its own fol
 | [![Ship It](03-ship-it/thumbnail.jpg)](03-ship-it/) | **[03 · Ship It](03-ship-it/)**<br>4:24 · Developers say AI now writes about half of their code, and it makes the same old security mistakes faster than anyone can review them. The answer is to build the checks into how software gets made, with stronger checks where the stakes are higher. |
 | [![Hold the Line](04-hold-the-line/thumbnail.jpg)](04-hold-the-line/) | **[04 · Hold the Line](04-hold-the-line/)**<br>11:22 · What AI guardrails are, why they can never catch everything, why they're still worth running, and how teams deploy them. |
 | [![AI 2027](05-ai-2027/thumbnail.jpg)](05-ai-2027/) | **[05 · AI 2027](05-ai-2027/)**<br>16:43 · What the AI 2027 forecast says, how it's tracking, what its authors and critics say now, and the good AI is already doing. |
+| [![Under Control](06-under-control/thumbnail.jpg)](06-under-control/) | **[06 · Under Control](06-under-control/)**<br>7:20 · Could an AI model copy itself out of the lab that built it? What the tests show, what a copy would need outside, the locks and the watching, open models, and where the US and China stand. |
 
 ## How the pages work
 - Every claim on screen is listed at its timestamp, with links to the primary sources wherever they exist.
